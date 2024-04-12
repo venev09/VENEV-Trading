@@ -127,14 +127,25 @@ p{
 }
 
 .oferti{
-    font-size: 20px;
+    font-size: 15px;
 }
 
 
 div.grid-element:hover{
     cursor: pointer;
 }
+.dualsensephoto{
+    margin-top: 50px;
+}
 
+#games{
+    position: relative;
+    bottom: 30px;
+}
+
+a.jj{
+    height: 250px;
+}
 @media (min-width:550px){
 
     .serviceLi {
@@ -291,5 +302,8 @@ div.grid-element:hover{
         grid-template-rows: 250px;
         height: 250px;
     }
-
+    .jj{
+        display: block;
+        height: 250px;
+    }
 }
