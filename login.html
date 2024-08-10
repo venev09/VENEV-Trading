@@ -7,22 +7,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="page1.css">
+    <link rel="stylesheet" href="login.css">
     
 </head>
 <body>
     <header>
         <div class="logo-login">
         <a href="index.html"><img src="logo.business.png" class="logo"></a>
-        
-        <a href="login.html">       
+        <a href="login.html">
         <button class="login">
             <span class="box">
                 LOG IN
             </span>
-        </button>        
+        </button>
         </a>
-
         </div>
 
         <ul>
@@ -31,18 +29,34 @@
             <li><a href="repair.html"><button  id="repair" class="services">Сервиз</button></a></li>
         <ul>
     </header>
-
-
-    <div class="grid">
-        <div class="grid-element"><a class="jj"><img src="s24new.png" height="80%" width="153px" class="s24photo"><br><p class="oferti">Смартфони</p></a></div>
-        <div class="grid-element"><a class="jj"><img src="ps5new.png" height="80%" width="153px" class="ps5photo"><br><p class="oferti">Конзоли</p></a></div>
-        <div class="grid-element"><a class="jj"><img src="eafc24.jpg" height="75%" width="153px" class="gamephoto"><br><p class="oferti" id="games">Аксесоари и игри</p></a></div>
-        <div class="grid-element"><a class="jj"><img src="aspire7.jpg" width="100%" class="dualsensephoto"><br><p class="oferti">Лаптопи</p></a></div>
-    </div>
-
-
-        <p>Във VENEV ще откриете най-новите технологии на най-ниските пазарни цени с гаранция за качество.</p>
-
+    <div class="wrapper">
+      <div class="card-switch">
+          <label class="switch">
+             <input type="checkbox" class="toggle">
+             <span class="slider"></span>
+             <span class="card-side"></span>
+             <div class="flip-card__inner">
+                <div class="flip-card__front">
+                   <div class="title">Log in</div>
+                   <form class="flip-card__form" action="">
+                      <input class="flip-card__input" name="email" placeholder="Email" type="email">
+                      <input class="flip-card__input" name="password" placeholder="Password" type="password">
+                      <button class="flip-card__btn">Let`s go!</button>
+                   </form>
+                </div>
+                <div class="flip-card__back">
+                   <div class="title">Sign up</div>
+                   <form class="flip-card__form" action="">
+                      <input class="flip-card__input" placeholder="Name" type="name">
+                      <input class="flip-card__input" name="email" placeholder="Email" type="email">
+                      <input class="flip-card__input" name="password" placeholder="Password" type="password">
+                      <button class="flip-card__btn">Confirm!</button>
+                   </form>
+                </div>
+             </div>
+          </label>
+      </div>   
+ </div>
     <footer>
         <a href="index.html"><img src="logo.business.png" class="footer-logo"></a>
         <div class="card">
@@ -82,4 +96,3 @@
     </footer>
 </body>
 </html>
- 
